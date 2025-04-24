@@ -5,10 +5,10 @@ from PIL import Image
 import numpy as np
 import os
 import os, streamlit as st
-st.write("Arquivos em /models:", os.listdir("models"))
 
 # Configurações gerais da página
 st.set_page_config(page_title="IA em Biotecnologia", layout="wide")
+st.write("Arquivos em /models:", os.listdir("models"))
 st.title("IA aplicada à Biotecnologia")
 st.markdown("Bem-vindo ao demo de IA em Biotecnologia! Use as abas acima para navegar.")
 
